@@ -1,0 +1,303 @@
+
+.main{
+    width:fit-content
+    height:fit-content
+}
+
+
+body{
+    background-image: url(wV5ishn.jpg);
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;    
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(54, 54, 54);
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: red;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-left: -500px;
+    font-size: 35px;
+
+}
+.menu{
+    width: 450px;
+    float: left;
+    height: 70px;
+    
+
+}
+
+.menu ul{
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top:5px;
+    font-size: 25px;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    
+}
+
+.menu ul li a:hover{
+    color: red;
+
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 200px;
+    
+
+}
+
+.srch{
+    font-family:'Times New Roman';
+    width:fit-content;
+    height: 50px;
+    background: transparent;
+    border: 1px solid red;
+    margin-top: 11px;
+    color: white;
+    border-right: none;
+    font-size: 18px;
+    float: left;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+    }
+
+    .btn{
+        width:fit-content;
+        height: 50px;
+        background: red;
+        border: 2px solid red;
+        margin-top: 5px;
+        color: white;
+        font-size: 18px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        cursor: pointer;
+        margin-top: 11px;
+
+    }
+
+    .btn:focus{
+        outline: none;  
+    }
+
+    .srch:focus{
+        outline: none;
+    }
+
+    .content{
+        width: 1200px;
+        height: auto;            
+        color: white;
+        position:fixed;
+        margin-top: 15px;
+        margin-left: -500px;
+    }
+
+    .content .par{
+        padding-left: 20px;
+        padding-bottom: 25px;
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+        margin-left: -685px;
+    }
+
+    .content h1{
+        font-family: 'Times New Roman';
+        font-size: 70px;
+        padding-left: 20px;
+        margin-top: 9%;
+        letter-spacing: 2px;
+    }
+
+    .content .cn{
+        width: 160px;
+        height: 40px;
+        background: red;
+        border: none;
+        margin-bottom: 10px;
+        font-size: 25px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+
+    .content .cn a {
+        text-decoration: none;
+        color: black;
+        transition: .3s ease;
+    }
+
+    .cn:hover{
+        background: white;
+
+    }
+
+    .content span{
+        color: red;
+        font-size: 60px;
+    }
+
+
+    .image{
+        margin-left: 150px;
+        padding: 15px;
+        border: 15px;
+        border-radius: 10px;
+        
+    }
+    
+
+    .signup-box{
+        width: 360px;
+        height: 620px;
+        margin: auto;
+        background-color: transparent;
+        border-radius: 3px;       
+        border: 1px solid darkred;
+
+
+    }
+
+    .login-box{
+        width: 360px;
+        height: 320px;
+        margin: auto;
+        background-color: transparent;
+        border-radius: 3px;
+        border: 1px solid darkred;
+
+
+    }
+
+    
+
+     .signup-header{
+        margin-top: -600px;
+        text-align: center;
+        padding-top: 15px;
+        color: white;
+    }
+
+     .login-header{
+        text-align: center;
+        padding-top: 15px;
+        color: white;
+    }
+
+   
+    
+    
+     .login-form{
+        width: 300px;
+        margin-left: 20px;
+        align-items: center;
+
+
+     }
+
+     .signup-form{
+        width: 300px;        
+        align-items: center;
+        margin-left: 800px;
+        margin-top: 55px;
+
+     }
+
+
+
+     
+
+     form label{
+        display: flex;
+        margin-top: 20px;
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        
+
+    }
+
+
+     form input{
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border: 1px solid white;
+        border-radius: 6px;
+        outline: none;
+        
+    }
+
+     input[type="button"]{
+        width: 320px;
+        height: 35px;
+        margin-top: 20px;
+        border: none;
+        background-color: darkred;
+        cursor: pointer;
+        color: white;
+        font-size: 18px;
+        
+    }
+
+     p{
+        text-align:center;
+        padding-top: 20px;
+        font-size: 18px;
+
+    }
+
+    .para-2{
+        text-align:center;
+        color: white;
+        font-size:15px;
+        margin-top: 7px;
+    }
+
+     .para-2 a{
+        color: darkred;
+        cursor: pointer;
+    }
+
+    footer{
+        color:white;
+    }
