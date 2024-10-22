@@ -1,9 +1,10 @@
 
-.main{
-    width:fit-content
-    height:fit-content
+.main {
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+    text-align: center; 
 }
-
 
 body{
     background-image: url(wV5ishn.jpg);
@@ -97,9 +98,9 @@ body{
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 
-    }
+}
 
-    .btn{
+.btn{
         width:fit-content;
         height: 50px;
         background: red;
@@ -112,81 +113,50 @@ body{
         cursor: pointer;
         margin-top: 11px;
 
-    }
+}
 
-    .btn:focus{
+.btn:focus{
         outline: none;  
-    }
+}
 
-    .srch:focus{
+.srch:focus{
         outline: none;
-    }
+}
 
-    .content{
-        width: 1200px;
-        height: auto;            
-        color: white;
-        position:fixed;
-        margin-top: 15px;
-        margin-left: -500px;
-    }
+.content {
+    width: 100%;
+    color: white;
+    text-align: center; /* Centers all content inside */
+    margin-top: 20px;
+    padding: 20px; /* Adds space around the content */
+}
 
-    .content .par{
-        padding-left: 20px;
-        padding-bottom: 25px;
-        font-family: Arial;
-        letter-spacing: 1.2px;
-        line-height: 30px;
-        margin-left: -685px;
-    }
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 70px;
+    margin-top: 9%; /* You can adjust this to move the heading vertically */
+    letter-spacing: 2px;
+    line-height: 1.2; /* Adds better spacing between lines */
+    text-align: center; /* Ensures the text is centered */
+}
 
-    .content h1{
-        font-family: 'Times New Roman';
-        font-size: 70px;
-        padding-left: 20px;
-        margin-top: 9%;
-        letter-spacing: 2px;
-    }
-
-    .content .cn{
-        width: 160px;
-        height: 40px;
-        background: red;
-        border: none;
-        margin-bottom: 10px;
-        font-size: 25px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: .4s ease;
-    }
-
-    .content .cn a {
-        text-decoration: none;
-        color: black;
-        transition: .3s ease;
-    }
-
-    .cn:hover{
-        background: white;
-
-    }
-
-    .content span{
-        color: red;
-        font-size: 60px;
-    }
+.content span {
+    color: red;
+    font-size: 60px; /* Adjust the size if necessary */
+}
 
 
-    .image{
+
+.image{
         margin-left: 150px;
         padding: 15px;
         border: 15px;
         border-radius: 10px;
         
-    }
+}
     
 
-    .signup-box{
+.signup-box{
         width: 360px;
         height: 620px;
         margin: auto;
@@ -195,9 +165,9 @@ body{
         border: 1px solid darkred;
 
 
-    }
+}
 
-    .login-box{
+.login-box{
         width: 360px;
         height: 320px;
         margin: auto;
@@ -206,47 +176,43 @@ body{
         border: 1px solid darkred;
 
 
-    }
+}
 
     
 
-     .signup-header{
+.signup-header{
         margin-top: -600px;
         text-align: center;
         padding-top: 15px;
         color: white;
-    }
+}
 
-     .login-header{
+.login-header{
         text-align: center;
         padding-top: 15px;
         color: white;
-    }
+}
 
    
     
     
-     .login-form{
+.login-form{
         width: 300px;
         margin-left: 20px;
         align-items: center;
 
 
-     }
+}
 
-     .signup-form{
+.signup-form{
         width: 300px;        
         align-items: center;
         margin-left: 800px;
         margin-top: 55px;
 
-     }
+}
 
-
-
-     
-
-     form label{
+form label{
         display: flex;
         margin-top: 20px;
         font-size: 18px;
@@ -254,10 +220,10 @@ body{
         text-align: center;
         
 
-    }
+}
 
 
-     form input{
+form input{
         width: 100%;
         padding: 7px;
         border: none;
@@ -265,9 +231,9 @@ body{
         border-radius: 6px;
         outline: none;
         
-    }
+}
 
-     input[type="button"]{
+input[type="button"]{
         width: 320px;
         height: 35px;
         margin-top: 20px;
@@ -277,27 +243,27 @@ body{
         color: white;
         font-size: 18px;
         
-    }
+}
 
-     p{
+p{
         text-align:center;
         padding-top: 20px;
         font-size: 18px;
 
-    }
+}
 
-    .para-2{
+.para-2{
         text-align:center;
         color: white;
         font-size:15px;
         margin-top: 7px;
-    }
+}
 
-     .para-2 a{
+.para-2 a{
         color: darkred;
         cursor: pointer;
-    }
+}
 
-    footer{
+footer{
         color:white;
-    }
+}
