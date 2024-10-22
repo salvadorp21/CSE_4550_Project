@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitConnect - Login</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FitConnect - Sign Up</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Firebase UMD SDKs -->
+        <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-firestore.js"></script>
+        <script src="config.js"></script> <!-- Your Firebase Config -->
+    </head>
 <body>
     <div class="signup-box"> </div>
         <h2 class="signup-header"> Sign Up </h2>
         <form class="signup-form">
-            <label> First Name </label>
-            <input type="text" placeholder="">
-            <label> Last Name </label>
-            <input type="text" placeholder="">
-            <label> Email </label>
-            <input type="email" placeholder="">
-            <label> Password </label>
-            <input type="password" placeholder="">
-            <label> Confirm Password </label>
-            <input type="password" placeholder="">
-            <input type="button" value="Submit">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Full Name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Create Account</button>
 
         </form>
 
@@ -32,5 +33,6 @@
     </div>
     <p class="para-2"> Already have an account? <a href="login.html"> Login Here </a> </p>
     <p class="para-2"> <a href="index.html"> Back to Home </a> </p>
-
+    <script src="signup.js"></script>
 </body>
+</html>
